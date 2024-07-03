@@ -1,11 +1,7 @@
-#Primero necesito los datos de la persona.
-
 nombre = input("¿Cuál es tu nombre?: ")
 apellido = input("¿Cuáles son tus apellidos?: ")
 
 datos = nombre + " " + apellido
-         
-#Después pedimos sus datos de altura y peso.
 
 altura = float(input("Por favot ingresa tu altura en metros: "))
 
@@ -13,8 +9,6 @@ peso = float(input("Ahora ingresa tu peso en Kg: "))
 
 p = peso
 a = round(altura*altura)
-
-#Aquí formulamos para sacar el resultado.
 
 IMC = p / a
 
@@ -34,5 +28,3 @@ elif IMC >= 35.00 and IMC <= 39.00 :
     print(datos + " tu Índice de masa corporal es de: " + str(IMC) + " significa que tienes obesidad media.")
 elif IMC >= 40.00 :
     print(datos + " tu Índice de masa corporal es de: " + str(IMC) + " significa que tienes obesidad morbida.")
-
-#SÍ FUNCIONÓ!!!
