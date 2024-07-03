@@ -2,10 +2,10 @@ inicio = "Introduce una palabra que contenga de 4 a 8 letras: "
 palabra = input(inicio)
 
 if len(palabra) < 4:
-    input(print("Tu palabra contiene menos de 4 letras, por favor vuelve a intentarlo."))
+    print("Tu palabra contiene menos de 4 letras, por favor vuelve a intentarlo.")
 if len(palabra) > 8:
-    input(print("Tu palabra contiene más de 8  letras, por favor vuelve a intentarlo"))
-if len(palabra) != 0:
+    print("Tu palabra contiene más de 8  letras, por favor vuelve a intentarlo")
+if len(palabra) > 4 and len(palabra) < 8:
     print("Tu palabra es correcta.")
 
 correcto = len(palabra)
